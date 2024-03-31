@@ -488,7 +488,7 @@ footer p{
     transition: transform 0.4s,drop-shadow 0.4s;
 }
 .main-certificate:hover{
-    transform: scale(1.4);
+    transform: scale(1.2);
 }
 .profile-above-title{
     animation-name: slide-top;
