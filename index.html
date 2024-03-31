@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansh's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav" class="nav-class">
+        <div class="logo">Ansh Rajput</div>
+        <div>
+            <ul class="nav-links">
+                <li><a class="aa" href="#about">About</a></li>
+                <li><a class="aa" href="#experience">Experience</a></li>
+                <li><a class="aa" href="#projects">Projects</a></li>
+                <li><a class="aa" href="#certificates">Certificates</a></li>
+                <li><a class="aa" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Ansh Rajput</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a class="aa" href="#about" onclick="togglemenu()">About</a></li>
+                <li><a class="aa" href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li><a class="aa" href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a class="aa" href="#certificates" onclick="togglemenu()">Certificates</a></li>
+                <li><a class="aa" href="#contact" onclick="togglemenu()">Contacts</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile" >
+        <div class="section__pic-container">
+            <img src="./assets/new-new-profile.png" alt="Ansh kumar Profile Picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1 profile-above-title">Hello, I'm</p>
+            <h1 class="title profile-title">Ansh Rajput</h1>
+            <p class="section__text__p2 profile-below-title">UI/UX Designer + Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('./assets/Ansh-CV.pdf')">Download CV</button>
+                <button class="btn btn-color-2" onclick="location.href='./#contacts'">Contact Info</button>
+            </div> 
+            <div id="socials-container">
+                <a class="icon-div linkedin" href="https://www.linkedin.com/in/ansh-kumar-787528223/" target="_blank">
+                <img src="./assets/linkedin-new-circle.png" alt="My linkedin Profile" class="icon linkedin"></a>
+                <a class="icon-div github" href="https://github.com/Anshrajput123" target="_blank">
+                <img src="./assets/Github-new1.png" alt="My Github Profile" class="icon github" ></a>
+                <a class="icon-div instagram" href="https://www.instagram.com/ak_rajput45/" target="_blank">
+                <img src="./assets/Instagram-new-circle.png" alt="My Instagram Profile" class="icon instagram" ></a>
+                <a class="icon-div dribble" href="https://dribbble.com/AnshRajput123" target="_blank">
+                <img src="./assets/Dribble-new.png" alt="My Dribble Profile" class="icon dribble" ></a>
+            </div>
+            <!-- <div id="socials-container">
+                <div class="icon-div">
+                <img src="./assets/linkedin.png" alt="My linkedin Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/ansh-kumar-787528223/' "/></div>
+                <div class="icon-div">
+                <img src="./assets/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/Anshrajput123'"
+                /></div>
+                <div class="icon-div">
+                <img src="./assets/Instagram.png" alt="My Instagram Profile" class="icon" onclick="location.href='https://www.instagram.com/ak_rajput45/' "/></div>
+                <div class="icon-div">
+                <img src="./assets/Dribble.png" alt="My Dribble Profile" class="icon" onclick="location.href='https://dribbble.com/AnshRajput123' "/></div>
+            </div> -->
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icons arrow" onclick="location.href='./#about'"/>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="titles about-title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container-about">
+                <img src="./assets/Animated-image.gif" alt="About Image" class="about-image">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icons"/>
+                        <h3>Experience</h3>
+                        <p>From Sept,2023 to Present <br />
+                           Working as a Designer and a Writer at one of the biggest Digital Marketing Companies in India, SocioHub Media.</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icons"/>
+                        <h3>Education</h3>
+                        <p>B.Tech CSE from LKCTC College with Avg.(8.3sgpa)<br />
+                           Intermediate from DKMS School with 84%
+                        </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>As a fresh UI/UX designer and frontend developer, I'm driven by a passion for crafting seamless digital experiences. Eager to learn and grow, I thrive in challenging environments and pride myself on being a fast learner. I seek to contribute my skills to a dynamic team, where I can continue to develop and make meaningful contributions. My goal is to exceed expectations and drive value through innovative design and development solutions.</p>
+                </div>               
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icons arrow" onclick="location.href='./#experience'"/>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title experience-title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icons">
+                            <div>
+                                <h3>HTML</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icons">
+                            <div>
+                                <h3>CSS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icons">
+                            <div>
+                                <h3>JavaScript</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">UI/UX Designer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icons">
+                            <div>
+                                <h3>Figma</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icons">
+                            <div>
+                                <h3>Photoshop</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icons">
+                            <div>
+                                <h3>Canva</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icons arrow" onclick="location.href='./#projects'"/>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">
+            Browse My Recent
+        </p>
+        <h1 class="title projects-title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container proj">
+                    <img src="./assets/Feedback-Hub.png" alt="Project 1" class="project-img ">
+                </div>
+                <h2 class="experience-sub-title project-title">feedback Hub</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-1 project-btn" onclick="location.href='https://www.figma.com/proto/q7ra0Rgi6qxkCTxbLFA8C3/feedback-Hub?page-id=0%3A1&scaling=min-zoom&node-id=84-77&starting-point-node-id=84%3A106&mode=design&t=zETStfE6fo5KieQn-1'">Figma Design</button>
+                    <button class="btn btn-color-1 project-btn" onclick="location.href='https://feedback-lkctc.vercel.app/'">Live</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/Portfolio.png" alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">My Portfolio</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com/Anshrajput123/Portfolio'">GitHub</button>
+                    <button class="btn btn-color-1 project-btn" onclick="location.href='https://anshrajput123.github.io/Portfolio/'">Live</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/Calciulator.png" alt="Project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Calciulator</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-1 project-btn" onclick="location.href='https://www.figma.com/proto/EsRD1g10xCSdDeXeBNs2F9/Calciulator?page-id=0%3A1&type=design&node-id=1-2&viewport=609%2C515%2C0.59&t=8iXDdSzITvaeibhl-1&scaling=contain&mode=design'">Figma Design</button>
+                    <button class="btn btn-color-1 project-btn" onclick="location.href='https://anshrajput123.github.io/Calciulator/'">Live</button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icons arrow" onclick="location.href='./#certificates'"/>
+    </section>
+    <section id="certificates">
+        <p class="section__text__p1">
+            Here are my
+        </p>
+        <h1 class="title certificates-title">Certificates</h1>
+        <div class="for-align">
+        <div class="certificate-row">
+            <div class="one-certificate">
+                <img src="./assets/AWS-Certificate.png" alt="AWS Certificate" class="main-certificate">
+            </div>
+            <div class="one-certificate">
+                <img src="./assets/Python-course.jpg"alt="Python Certificate" class="main-certificate">
+            </div>
+            <div class="one-certificate">
+                <img src="./assets/C-Programming.jpg" alt="C Certificate" class="main-certificate">
+            </div>
+        </div>
+        <div class="certificate-row">
+            <div class="one-certificate">
+                <img src="./assets/Digital.png"alt="Digital Marketing Certificate" class="main-certificate">
+            </div>
+            <div class="one-certificate">
+                <img src="./assets/Wordpress-developer.jpg" alt="Wordpress Certificate" class="main-certificate">
+            </div>
+            
+           <!--  <div class="one-certificate">
+                <img src="./assets/C-Programming.jpg" alt="C Certificate" class="main-certificate">
+            </div> -->
+        </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icons arrow" onclick="location.href='./#contact'"/>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title contact-title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icons contact-icon email-icon"/>
+                <p><a class="aa" href="mailto:ansh34231@gmail.com" target="_blank">ansh34231@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="Linkedin icon" class="icons contact-icon"/>
+                <p><a class="aa" href="https://www.linkedin.com/in/ansh-kumar-787528223/" target="_blank">Linkedin</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a class="aa" href="#about">About</a></li>
+                    <li><a class="aa" href="#experience">Experience</a></li>
+                    <li><a class="aa" href="#projects">Projects</a></li>
+                    <li><a class="aa" href="#certificates">Certificates</a></li>
+                    <li><a class="aa" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p> Copyright&#169; 2024 Ansh Kumar Rajput. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
