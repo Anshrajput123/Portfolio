@@ -293,6 +293,7 @@ section{
     height: 450px;
     width: 450px;
     border-radius: 12px;
+    -webkit-border-radius: 12px;
     background-color: #d6d6d6;
     margin-left: 2rem;
     margin-right: 4rem;
@@ -302,6 +303,7 @@ section{
     clip-path: fill-box;
     object-fit: cover;
     -webkit-clip-path:fill-box;
+    overflow: hidden;
 }
 .about-image{
     height: 100%;
