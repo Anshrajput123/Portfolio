@@ -137,6 +137,9 @@ section{
     gap: 5rem;
     height: 80vh;   
 }
+.profile-pic{
+    
+}
 .section__pic-container{
     display: flex;
     height: 400px;
@@ -147,6 +150,7 @@ section{
     justify-content: center;
     align-items: center;
     clip-path: fill-box;
+    -webkit-clip-path:fill-box;
     overflow: hidden;
 }
 .section__pic-container>img{
