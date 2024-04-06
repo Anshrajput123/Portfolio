@@ -147,6 +147,7 @@ section{
     justify-content: center;
     align-items: center;
     clip-path: fill-box;
+    overflow: hidden;
 }
 .section__pic-container>img{
     width: 75%;

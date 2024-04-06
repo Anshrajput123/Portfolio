@@ -19,9 +19,11 @@ function togglemenu(){
 // });
 
 // const hiddenElements = document.querySelectorAll('.hidden');
-// hiddenElements.forEach((el) => observer.observe(el));
-
 let sections = document.querySelectorAll('section');
+
+
+
+
 window.onscroll= () => {
         sections.forEach(sec => {
                 let top = window.scrollY;
